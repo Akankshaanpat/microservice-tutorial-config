@@ -2,8 +2,8 @@ eureka:
   instance:
     hostname: localhost
   client:
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
 server:
   port: 8085
   
@@ -11,9 +11,4 @@ spring:
   application:
     name: CONFIG-SERVER
     
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Akankshaanpat/microservice-tutorial-config
-          clone-on-start: true
+ 
