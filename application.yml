@@ -9,6 +9,6 @@ server:
   
 spring:
   application:
-    name: CONFIG-SERVER
+    name: CONFIG-default
     
  
