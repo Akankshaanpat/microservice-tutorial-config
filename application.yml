@@ -4,11 +4,7 @@ eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
-server:
-  port: 8085
-  
-spring:
-  application:
-    name: CONFIG-default
+
+
     
  
