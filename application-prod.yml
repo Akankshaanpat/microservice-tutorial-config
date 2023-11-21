@@ -5,9 +5,4 @@ spring:
   application:
     name: CONFIG-PROD
     
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Akankshaanpat/microservice-tutorial-config
-          clone-on-start: true
+  
